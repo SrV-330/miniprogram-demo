@@ -44,5 +44,13 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  navigationTo(){
+    console.log("navigation to");
+    wx.navigateTo({
+      url: "../tapevent/tapevent",
+    })
+    
+    getCurrentPages().forEach((a)=>{console.log(a.getPageId())});
   }
 })

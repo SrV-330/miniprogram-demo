@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="tapParent" bindtap="onTapParent">
+        <text>pages/tapevent/tapevent.wxml</text>
+        <view class="tapChild" bindtap="onTapChild">bindtap</view>
+        <view class="tapChild" bindtap="onTapChild">bindtap</view>
+    </view>
+    <view class="tapParent" catchtap="onTapParent">
+        <text>pages/tapevent/tapevent.wxml</text>
+        <view class="tapChild" catchtap="onTapChild">catchtap</view>
+        <view class="tapChild" catchtap="onTapChild">catchtap</view>
+    </view>
+</view>

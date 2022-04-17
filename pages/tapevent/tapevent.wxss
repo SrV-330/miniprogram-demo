@@ -1,0 +1,7 @@
+/* pages/tapevent/tapevent.wxss */
+.tapParent{
+    margin-top: 25px;
+}
+.tapChild{
+    margin-top: 25px;
+}
